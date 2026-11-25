@@ -1,0 +1,8 @@
+Test,Time,Destination/Scenario,RTT_ms,Jitter_ms,Loss_percent,TCP_Mbps,UDP_Mbps,Notes
+Ping-1,Morning,Destination 1,,,,,,
+Ping-2,Afternoon,Destination 1,,,,,,
+Ping-3,Evening,Destination 1,,,,,,
+iperf-wired,TCP,Wired host pair,,,,,,
+iperf-wireless,TCP,Wi-Fi host pair,,,,,,
+Simulation-baseline,Run 1,Packet Tracer or NS-3,,,,,,
+Simulation-QoS,Run 2,Voice priority,,,,,,
